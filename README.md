@@ -1,5 +1,5 @@
 # Lending Club Case Study
-> The case study is an attempt using EDA to identify the driving variables which are strong indicators of applicants to be a Loan Default.
+ The case study is an attempt using EDA to identify the driving variables which are strong indicators of applicants to be a Loan Default.
 
 
 ## Business Understanding
@@ -20,16 +20,27 @@ We are working for Lending club a finance company which specialises in lending v
 
 ## Conclusions
 -Higher loan amount (above 16K) 
+
 -Lower annual income (below 37K) 
+
 -Applicant’s address state (NV, SD, AK, FL, etc.) 
+
 -Loan issue month (Dec, May, Sep) 
+
 -Higher interest rate (above 13%) 
+
 -Repayment term (5 years) 
+
 -Loan grade & sub-grade (D to G) 
+
 -Missing employment record 
+
 -Loan purpose (small business, renewable energy, educational) 
+
 -High loan amount & interest rate for lower income group 
+
 -High instalment and longer repayment term 
+
 -Loans of higher grade have higher tendency to be default
 
 
