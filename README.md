@@ -1,52 +1,35 @@
 # Lending Club Case Study
-> The case study is an attempt using EDA to identify the driving variables which are strong indicators of applicants to be a Loan Defaults![image](https://user-images.githubusercontent.com/104713386/167881857-871ea59a-d5b0-4ec0-85f9-d12eae8d9b2f.png)
+> The case study is an attempt using EDA to identify the driving variables which are strong indicators of applicants to be a Loan Default.
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+## Business Understanding
+We are working for Lending club a finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision: 
+	•If the applicant is likely to repay the loan, then not 	approving the loan results in a loss of business to the 	company 
+	•If the applicant is not likely to repay the loan, i.e. he/she 	is likely to default, then approving the loan may lead to a 	financial loss for the company.
 
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Analysis
+> 1. Univariate Analysis: 
+1. Run through each categorical and continuous variable to analyse the impact to Default count with respect to overall loan status 
+2. Select the influential variable based on the positive/negative relation to the Default status 
+3. Select the variable infer loan characteristic and help in identifying the default 
+> 2. Bivariate Analysis :
+1. Influenced Univariate Variables are combined in to two Variable feature set and analyse the Default count 
+2. Compared the Binning Discrete Categorical Variable to the actual Categorical Variable to do segmented analysis to see the relation and pattern towards Loan Default 
+3. Compared the actual continuous variable to the actual categorical variable to analyse the spread of the data 
+4. Combinations of Variables are identified by applying the analytical sense and had business relations
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+-Higher loan amount (above 16K) 
+-Lower annual income (below 37K) 
+-Applicant’s address state (NV, SD, AK, FL, etc.) 
+-Loan issue month (Dec, May, Sep) 
+-Higher interest rate (above 13%) 
+-Repayment term (5 years) 
+-Loan grade & sub-grade (D to G) 
+-Missing employment record 
+-Loan purpose (small business, renewable energy, educational) 
+-High loan amount & interest rate for lower income group 
+-High instalment and longer repayment term 
+-Loans of higher grade have higher tendency to be default
 
 
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
