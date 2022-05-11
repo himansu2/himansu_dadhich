@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> The case study is an attempt using EDA to identify the driving variables which are strong indicators of applicants to be a Loan Defaults![image](https://user-images.githubusercontent.com/104713386/167881857-871ea59a-d5b0-4ec0-85f9-d12eae8d9b2f.png)
 
 
 ## Table of Contents
